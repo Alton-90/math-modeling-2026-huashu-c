@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "question_id": "Q4",
+  "generated_at": "2026-08-10T02:31:24+08:00",
+  "verification_status": "PASSED",
+  "source_table": "05_结果与图表/intermediate/question4/experiments/round2_peak_latency_fix_candidate/tables/q4_candidate_metrics.csv",
+  "source_table_sha256": "03BBF0D41A86AD421F7D385B6D73A7346CBDD7D5662DC489FE6023F5E5DB48BB",
+  "baseline": "B2",
+  "baseline_cost_cny": "-459207293.44516176",
+  "candidate_count": 7,
+  "rule": {
+    "threshold_share_of_maximum_improvement": "0.85",
+    "tie_breaker": "minimum migration_tasks",
+    "ordering": "ascending migration_tasks"
+  },
+  "maximum_additional_cost_improvement_vs_B2_cny": "113678.40085984",
+  "threshold_additional_cost_improvement_cny": "96626.6407308640",
+  "candidates": [
+    {
+      "solution_id": "Joint_m0000",
+      "cost_cny": "-459207293.44516176",
+      "additional_cost_improvement_vs_B2_cny": "0.00000000",
+      "share_of_maximum_improvement": "0",
+      "share_of_maximum_improvement_percent": "0",
+      "migration_tasks": 0,
+      "migration_rate": "0.0",
+      "meets_85_percent_threshold": false
+    },
+    {
+      "solution_id": "Joint_m0050",
+      "cost_cny": "-459254488.0020261",
+      "additional_cost_improvement_vs_B2_cny": "47194.55686434",
+      "share_of_maximum_improvement": "0.4151585218244635444768158763",
+      "share_of_maximum_improvement_percent": "41.51585218244635444768158763",
+      "migration_tasks": 50,
+      "migration_rate": "0.001",
+      "meets_85_percent_threshold": false
+    },
+    {
+      "solution_id": "Joint_m0100",
+      "cost_cny": "-459266383.85851556",
+      "additional_cost_improvement_vs_B2_cny": "59090.41335380",
+      "share_of_maximum_improvement": "0.5198033479258354209722310626",
+      "share_of_maximum_improvement_percent": "51.98033479258354209722310626",
+      "migration_tasks": 100,
+      "migration_rate": "0.002",
+      "meets_85_percent_threshold": false
+    },
+    {
+      "solution_id": "Joint_m0250",
+      "cost_cny": "-459298007.57552266",
+      "additional_cost_improvement_vs_B2_cny": "90714.13036090",
+      "share_of_maximum_improvement": "0.7979891489918666178520581509",
+      "share_of_maximum_improvement_percent": "79.79891489918666178520581509",
+      "migration_tasks": 250,
+      "migration_rate": "0.005",
+      "meets_85_percent_threshold": false
+    },
+    {
+      "solution_id": "Joint_m0500",
+      "cost_cny": "-459306939.71633023",
+      "additional_cost_improvement_vs_B2_cny": "99646.27116847",
+      "share_of_maximum_improvement": "0.8765629214940229417600820715",
+      "share_of_maximum_improvement_percent": "87.65629214940229417600820715",
+      "migration_tasks": 500,
+      "migration_rate": "0.01",
+      "meets_85_percent_threshold": true
+    },
+    {
+      "solution_id": "Joint_m1000",
+      "cost_cny": "-459320971.8460216",
+      "additional_cost_improvement_vs_B2_cny": "113678.40085984",
+      "share_of_maximum_improvement": "1",
+      "share_of_maximum_improvement_percent": "100",
+      "migration_tasks": 1000,
+      "migration_rate": "0.02",
+      "meets_85_percent_threshold": true
+    },
+    {
+      "solution_id": "Joint_m2200",
+      "cost_cny": "-459320971.5171736",
+      "additional_cost_improvement_vs_B2_cny": "113678.07201184",
+      "share_of_maximum_improvement": "0.9999971072077236074620238617",
+      "share_of_maximum_improvement_percent": "99.99971072077236074620238617",
+      "migration_tasks": 2169,
+      "migration_rate": "0.04338",
+      "meets_85_percent_threshold": true
+    }
+  ],
+  "selected_solution": "Joint_m0500",
+  "selection_is_expected": true
+}

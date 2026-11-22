@@ -1,0 +1,3 @@
+﻿scenario,total_tasks,assigned_tasks,task_completion_rate,hard_constraint_violation_count,migrations,migration_rate,total_wait_minutes,average_wait_minutes_assigned,weighted_wait_minutes,peak_gpu_utilization
+base_actual_2376_2399,538,538,1.0,0,3,0.0055762081784386614,0.0,0.0,0.0,0.9996549344375432
+peak_tasks_plus_20pct,568,568,1.0,0,11,0.01936619718309859,0.0,0.0,0.0,0.989648033126294
